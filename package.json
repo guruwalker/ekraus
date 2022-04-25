@@ -1,26 +1,37 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "ekraus-website",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Official Website for Ekraus",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Innocent Maina innocentwahome@gmail.com>",
   "dependencies": {
+    "@popperjs/core": "^2.11.4",
+    "axios": "^0.25.0",
+    "bootstrap": "^5.1.3",
+    "bulma": "^0.9.3",
     "gatsby": "^4.12.1",
     "gatsby-plugin-gatsby-cloud": "^4.12.1",
     "gatsby-plugin-image": "^2.12.1",
     "gatsby-plugin-manifest": "^4.12.1",
     "gatsby-plugin-offline": "^5.12.1",
     "gatsby-plugin-react-helmet": "^5.12.1",
+    "gatsby-plugin-sass": "^5.4.0",
     "gatsby-plugin-sharp": "^4.12.1",
     "gatsby-source-filesystem": "^4.12.1",
     "gatsby-transformer-sharp": "^4.12.1",
     "prop-types": "^15.8.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "sass": "^1.45.2",
+    "styled-components": "^5.3.3"
   },
   "devDependencies": {
-    "prettier": "^2.6.2"
+    "autoprefixer": "^10.4.5",
+    "gatsby-plugin-postcss": "^5.12.1",
+    "postcss": "^8.4.12",
+    "prettier": "^2.6.2",
+    "tailwindcss": "^3.0.24"
   },
   "keywords": [
     "gatsby"
