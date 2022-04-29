@@ -5,15 +5,15 @@ const ContactForm = () => {
     <form
       action="https://formsubmit.co/innocentwahome@gmail.com"
       method="POST"
-      class="container"
+      className="container"
     >
-      <div class="container">
-        <div class="field is-horizontal">
-          <div class="field-body">
-            <div class="field">
-              <p class="control is-expanded">
+      <div className="container">
+        <div className="field is-horizontal">
+          <div className="field-body">
+            <div className="field">
+              <p className="control is-expanded">
                 <input
-                  class="input"
+                  className="input"
                   type="text"
                   placeholder="Name"
                   name="Name"
@@ -22,12 +22,12 @@ const ContactForm = () => {
             </div>
           </div>
         </div>
-        <div class="field is-horizontal">
-          <div class="field-body">
-            <div class="field">
-              <p class="control is-expanded">
+        <div className="field is-horizontal">
+          <div className="field-body">
+            <div className="field">
+              <p className="control is-expanded">
                 <input
-                  class="input"
+                  className="input"
                   type="email"
                   placeholder="Email"
                   name="Email"
@@ -37,12 +37,12 @@ const ContactForm = () => {
           </div>
         </div>
 
-        <div class="field is-horizontal">
-          <div class="field-body">
-            <div class="field">
-              <p class="control is-expanded">
+        <div className="field is-horizontal">
+          <div className="field-body">
+            <div className="field">
+              <p className="control is-expanded">
                 <input
-                  class="input"
+                  className="input"
                   type="text"
                   placeholder="Phone number (optional)"
                   name="Phone Number"

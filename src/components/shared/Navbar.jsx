@@ -15,7 +15,7 @@ const Navbar = () => {
           <img src={Logo} width="100" height="350" alt="default alt" />
         </a>
         <a
-          href="#"
+          href="_blank"
           onClick={() => {
             setisActive(!isActive)
           }}
@@ -36,9 +36,9 @@ const Navbar = () => {
         className={`navbar-menu ${isActive ? "is-active" : ""}`}
       >
         <div className="navbar-end">
-          <a className="navbar-item">Home</a>
-          <a class="navbar-item">About Ekraus</a>
-          <a class="navbar-item">Contact</a>
+          <a href="_blank" className="navbar-item">Home</a>
+          <a href="_blank" className="navbar-item">About Ekraus</a>
+          <a href="_blank" className="navbar-item">Contact</a>
         </div>
       </div>
     </nav>

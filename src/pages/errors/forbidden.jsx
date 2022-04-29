@@ -1,8 +1,9 @@
 import * as React from "react"
-import pageNotFoundImage from "../assets/icons/errors/404.svg"
+import forbiddenImage from "../../assets/icons/errors/403.svg"
+// import { Link } from "gatsby"
 import { navigate } from "gatsby"
 
-const PageNotFound = () => {
+const ForbiddenPage = () => {
   return (
     <section className="hero is-fullheight">
       <div className="hero-body">
@@ -10,13 +11,15 @@ const PageNotFound = () => {
           <div className="columns is-centered is-vcentered">
             <div className="column is-half">
               <figure className="image is-4by3">
-                <img src={pageNotFoundImage} alt="404 Error" />
+                <img src={forbiddenImage} alt="403 Error" />
               </figure>
               <div className="content has-text-centered">
-                <h1>PAGE NOT FOUND! </h1>
-                <p>It seems the page you requested does not exist</p>
+                <h1>NO ACCESS! </h1>
+                <p>
+                  You're don't have the correct role to continue to this page
+                </p>
                 <button
-                  onClick={() => navigate(-1)}
+                  onClick={() => navigate(-2)}
                   className="button is-danger is-rounded"
                 >
                   Go back
@@ -29,4 +32,4 @@ const PageNotFound = () => {
     </section>
   )
 }
-export default PageNotFound
+export default ForbiddenPage
