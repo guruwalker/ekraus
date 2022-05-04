@@ -2,71 +2,36 @@ import React from "react"
 
 const ContactForm = () => {
   return (
-    <form
-      action="https://formsubmit.co/innocentwahome@gmail.com"
-      method="POST"
-      className="container"
-    >
-      <div className="container">
-        <div className="field is-horizontal">
-          <div className="field-body">
-            <div className="field">
-              <p className="control is-expanded">
-                <input
-                  className="input"
-                  type="text"
-                  placeholder="Name"
-                  name="Name"
-                />
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="field is-horizontal">
-          <div className="field-body">
-            <div className="field">
-              <p className="control is-expanded">
-                <input
-                  className="input"
-                  type="email"
-                  placeholder="Email"
-                  name="Email"
-                />
-              </p>
-            </div>
-          </div>
-        </div>
+    <section className="hero is-fullheight is-success">
+      <div className="">
+        <p>Get in touch</p>
 
-        <div className="field is-horizontal">
-          <div className="field-body">
-            <div className="field">
-              <p className="control is-expanded">
-                <input
-                  className="input"
-                  type="text"
-                  placeholder="Phone number (optional)"
-                  name="Phone Number"
-                />
-              </p>
+        <div className="hero-body">
+          <form action="" className="container">
+            <div className="columns">
+              <div class="field is-horizontal">
+                <div class="field-body">
+                  <div class="field">
+                    <p class="control is-expanded">
+                      <input class="input" type="text" placeholder="Company" />
+                    </p>
+                  </div>
+                  <div class="field">
+                    <p class="control is-expanded">
+                      <input
+                        class="input"
+                        type="text"
+                        placeholder="Phone number"
+                      />
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-
-        <div className="field">
-          <textarea
-            placeholder="Message"
-            className="textarea"
-            name="message"
-          ></textarea>
-        </div>
-
-        <div className="field">
-          <button className="button is-black is-rounded" type="submit">
-            Send Message
-          </button>
+          </form>
         </div>
       </div>
-    </form>
+    </section>
   )
 }
 
