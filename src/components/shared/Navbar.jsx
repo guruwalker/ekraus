@@ -1,5 +1,5 @@
 import React from "react"
-// import Logo from "../../assets/images/logo.png"
+// import Logo from "../../assets/images/logo5.png"
 
 const Navbar = () => {
   const [isActive, setisActive] = React.useState(false)
@@ -11,8 +11,8 @@ const Navbar = () => {
       aria-label="main navigation"
     >
       <div className="navbar-brand">
-        <a className="navbar-item" href="https://bulma.io">
-          {/* <img src={Logo} width="100" height="350" alt="default alt" /> */}
+        <a className="navbar-item logo-font" href="/">
+          {/* <img src={Logo} alt="default alt" width={120} height={150}/> */}
           Ekraus
         </a>
         <a href="/"
@@ -35,10 +35,7 @@ const Navbar = () => {
         id="navbarBasicExample"
         className={`navbar-menu ${isActive ? "is-active" : ""}`}
       >
-        <div className="navbar-start">
-          <a href="/" className="navbar-item">
-            Home
-          </a>
+        <div className="navbar-end">
           <div className="navbar-item has-dropdown is-hoverable">
             <a href="/" className="navbar-link">Our service</a>
 
@@ -61,7 +58,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-        <div className="navbar-end">
+        {/* <div className="navbar-end">
         <input type="text" placeholder="Search.." />
 
           <a href="/" className="navbar-item">
@@ -69,10 +66,7 @@ const Navbar = () => {
               Launch Initiative
             </button>
           </a>
-          <a href="/" className="navbar-item">
-            Login
-          </a>
-        </div>
+        </div> */}
       </div>
     </nav>
   )

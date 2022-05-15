@@ -8,13 +8,13 @@ import PageLayout from "../layouts/PageLayout"
 const IndexPage = () => {
   return (
     <PageLayout>
-      <section className="hero is-medium is-dark pt-6 mt-6">
+      {/* <section className="hero is-medium is-dark pt-6 mt-6">
         <div className="hero-body">
           <div className="container">
             <p className="title is-1 has-text-centered has-text-success">
               Together towards climate <br /> protection
             </p>
-            <p className="subtitle has-text-centered pt-2">
+            <p className="is-size-5 has-text-centered pt-2">
               This is where local initiators, capable execution partners and
               engaged residents come together to turn plans into actions.
             </p>
@@ -37,33 +37,16 @@ const IndexPage = () => {
             </div>
           </div>
         </div>
-      </section>
-      <section className="hero is-medium is-light pt-6 mt-6">
-        <div className="hero-body">
-          <div className="container">
-            <p className="title is-1 has-text-centered">
-              Find initatives in your area
-            </p>
-            <div className="columns">
-              <div className="column is-three-quarters">
-                <input type="text" placeholder="Search.." />
-              </div>
-              <div className="column ">
-                <button className="button is-success is-rounded">Search</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      </section> */}
       <section className="hero is-medium is-medium pt-6 mt-6">
         <div className="hero-body">
           <div className="container">
             <div className="columns pb-6">
               <div className="column is-one-third">
-                <p className="title is-3 has-text-success">What is Ekraus</p>
+                <p className="title is-3 has-text-title-color">What is Ekraus</p>
               </div>
               <div className="column">
-                <p className="subtitle">
+                <p className="is-size-5">
                   Climate change is already part of everyday life. Therefore,
                   public actors have to become active together with residents
                   and companies and engage in climate protection. At its core,
@@ -75,10 +58,10 @@ const IndexPage = () => {
             </div>
             <div className="columns pb-6">
               <div className="column is-one-third">
-                <p className="title is-3 has-text-success">How it works?</p>
+                <p className="title is-3 has-text-title-color">How it works?</p>
               </div>
               <div className="column">
-                <p className="subtitle">
+                <p className="is-size-5">
                   On our platform, local initiators launch initiatives together
                   with qualified execution partners. People from the region can
                   participate in these initiatives and thus invest in
@@ -90,12 +73,12 @@ const IndexPage = () => {
             </div>
             <div className="columns pb-6">
               <div className="column is-one-third">
-                <p className="title is-3 has-text-success">
+                <p className="title is-3 has-text-title-color">
                   What is an initiative?
                 </p>
               </div>
               <div className="column">
-                <p className="subtitle">
+                <p className="is-size-5">
                   An initiative brings together as many people as possible from
                   a region. This creates a strong collective that has more
                   market power than a single person. Together they benefit from
@@ -116,8 +99,8 @@ const IndexPage = () => {
             <div className="columns pb-6">
               <div className="column">
                 <p className="pb-6">
-                  <span className="subtitle has-text-weight-semibold">
-                    For residents <br />
+                  <span className="is-size-5 has-text-weight-semibold">
+                    For Producers <br />
                     <br />
                   </span>
                   Through CoBenefit, people can easily benefit from climate tech
@@ -128,17 +111,17 @@ const IndexPage = () => {
                 </button>
               </div>
               <div className="column is-one-third">
-                <img src={Installer} alt="for installers" />
+                <img className="image is-256x256" src={Installer} alt="for installers" />
               </div>
             </div>
             <div className="columns pb-6">
               <div className="column is-one-third">
-                <img src={Citizen} alt="for citizens" />
+                <img className="image is-256x256" src={Citizen} alt="for citizens" />
               </div>
               <div className="column">
                 <p className="pb-6">
-                  <span className="subtitle has-text-weight-semibold">
-                    For initiators <br />
+                  <span className="is-size-5 has-text-weight-semibold">
+                    For Organizations <br />
                     <br />
                   </span>
                   We offer local initiators a digital toolbox to successfully
@@ -152,8 +135,8 @@ const IndexPage = () => {
             <div className="columns pb-6">
               <div className="column">
                 <p className="pb-6">
-                  <span className="subtitle has-text-weight-semibold">
-                    For installers <br />
+                  <span className="is-size-5 has-text-weight-semibold">
+                    For NGOs <br />
                     <br />
                   </span>
                   The execution partners of our initiatives grow in the long
@@ -164,7 +147,25 @@ const IndexPage = () => {
                 </button>
               </div>
               <div className="column is-one-third">
-                <img src={Initiator} alt="for initiators" />
+                <img className="image is-256x256" src={Initiator} alt="for initiators" />
+              </div>
+            </div>
+            <div className="columns pb-6">
+              <div className="column is-one-third">
+                <img className="image is-256x256" src={Citizen} alt="for citizens" />
+              </div>
+              <div className="column">
+                <p className="pb-6">
+                  <span className="is-size-5 has-text-weight-semibold">
+                    For Local Consumers <br />
+                    <br />
+                  </span>
+                  We offer local initiators a digital toolbox to successfully
+                  realise initiatives with residents.
+                </p>
+                <button className="button is-rounded is-contained is-success has-text-white">
+                  Launch initiative
+                </button>
               </div>
             </div>
           </div>
