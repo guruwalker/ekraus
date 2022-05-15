@@ -23,16 +23,16 @@ const Footer = () => {
               </h3>
               <ul className="menu-list has-text-white">
                 <li>
-                  <Link className="has-text-white">For residents</Link>
+                  <Link to="/" className="has-text-white">For residents</Link>
                 </li>
                 <li>
-                  <Link className="has-text-white">For initiators</Link>
+                  <Link to="/" className="has-text-white">For initiators</Link>
                 </li>
                 <li>
-                  <Link className="has-text-white">For installers</Link>
+                  <Link to="/" className="has-text-white">For installers</Link>
                 </li>
                 <li>
-                  <Link className="has-text-white">FAQ</Link>
+                  <Link to="/" className="has-text-white">FAQ</Link>
                 </li>
               </ul>
             </div>
@@ -55,7 +55,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/why-kisokolab/" className="has-text-white">
+                  <Link to="/" className="has-text-white">
                     Jobs
                   </Link>
                 </li>

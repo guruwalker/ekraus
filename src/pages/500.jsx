@@ -1,6 +1,5 @@
 import * as React from "react"
 import internalServerErrorImage from "../assets/icons/errors/500.svg"
-// import { Link } from "gatsby"
 import { navigate } from "gatsby"
 
 const InternalServerErrorPage = () => {

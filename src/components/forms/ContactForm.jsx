@@ -9,17 +9,17 @@ const ContactForm = () => {
         <div className="hero-body">
           <form action="" className="container">
             <div className="columns">
-              <div class="field is-horizontal">
-                <div class="field-body">
-                  <div class="field">
-                    <p class="control is-expanded">
-                      <input class="input" type="text" placeholder="Company" />
+              <div className="field is-horizontal">
+                <div className="field-body">
+                  <div className="field">
+                    <p className="control is-expanded">
+                      <input className="input" type="text" placeholder="Company" />
                     </p>
                   </div>
-                  <div class="field">
-                    <p class="control is-expanded">
+                  <div className="field">
+                    <p className="control is-expanded">
                       <input
-                        class="input"
+                        className="input"
                         type="text"
                         placeholder="Phone number"
                       />

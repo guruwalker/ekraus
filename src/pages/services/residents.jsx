@@ -88,12 +88,12 @@ const ResidentsPage = () => {
             </p>
             <div className="columns is-desktop">
               <div className="column">
-                <div class="card">
-                  <div class="card-content">
-                    <p class="subtitle has-text-success has-text-centered has-text-weight-semibold pb-2">
+                <div className="card">
+                  <div className="card-content">
+                    <p className="subtitle has-text-success has-text-centered has-text-weight-semibold pb-2">
                       Respond to request
                     </p>
-                    <p class="has-text-centered">
+                    <p className="has-text-centered">
                       You find out about our initiator's plans through a request
                       or a direct enquiry. On CoBenefit you receive further
                       details on the request and express your interest to the
@@ -103,12 +103,12 @@ const ResidentsPage = () => {
                 </div>
               </div>
               <div className="column">
-                <div class="card">
-                  <div class="card-content">
-                    <p class="subtitle has-text-success has-text-centered has-text-weight-semibold pb-2">
+                <div className="card">
+                  <div className="card-content">
+                    <p className="subtitle has-text-success has-text-centered has-text-weight-semibold pb-2">
                       Receive acceptance
                     </p>
-                    <p class="has-text-centered">
+                    <p className="has-text-centered">
                       If you meet the necessary price and performance criteria,
                       you receive the acceptance for an initiative. You will
                       then be given the credentials to register on our platform
@@ -118,12 +118,12 @@ const ResidentsPage = () => {
                 </div>
               </div>
               <div className="column">
-                <div class="card">
-                  <div class="card-content">
-                    <p class="subtitle has-text-success has-text-centered has-text-weight-semibold pb-2">
+                <div className="card">
+                  <div className="card-content">
+                    <p className="subtitle has-text-success has-text-centered has-text-weight-semibold pb-2">
                       Provide service
                     </p>
-                    <p class="has-text-centered">
+                    <p className="has-text-centered">
                       The initiative is launched on CoBenefit and residents can
                       register. Via our platform or our partners, you can access
                       the customers' data and contact them. You provide the

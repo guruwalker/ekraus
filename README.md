@@ -5,7 +5,7 @@
   </a>
 </p>
 <h1 align="center">
-  Ekraus
+  Ekrauss
 </h1>
 
 Ekraus is a comprehensive solution for agro operations. Our goal is to build an eco-system around farmers that facilitates their operations and makes their products more accessible.
