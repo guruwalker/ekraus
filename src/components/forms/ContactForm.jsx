@@ -2,36 +2,74 @@ import React from "react"
 
 const ContactForm = () => {
   return (
-    <section className="hero is-fullheight is-success">
-      <div className="">
-        <p>Get in touch</p>
+    <form
+      // action="https://formspree.io/f/xwkyrzlk"
+      // action="https://formsubmit.co/info@kisokolab.com"
+      method="POST"
+    >
+      {/* <input type="hidden" name="_next" value="/thank-you" /> */}
 
-        <div className="hero-body">
-          <form action="" className="container">
-            <div className="columns">
-              <div className="field is-horizontal">
-                <div className="field-body">
-                  <div className="field">
-                    <p className="control is-expanded">
-                      <input className="input" type="text" placeholder="Company" />
-                    </p>
-                  </div>
-                  <div className="field">
-                    <p className="control is-expanded">
-                      <input
-                        className="input"
-                        type="text"
-                        placeholder="Phone number"
-                      />
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </form>
+      <div class="field is-horizontal">
+        <div class="field-body">
+          <div class="field">
+            <p class="control is-expanded">
+              <input class="input" type="text" placeholder="Name" name="Name" />
+            </p>
+          </div>
+          <div class="field">
+            <p class="control is-expanded">
+              <input
+                class="input"
+                type="email"
+                placeholder="Email"
+                name="Email"
+              />
+            </p>
+          </div>
         </div>
       </div>
-    </section>
+
+      <div class="field is-horizontal">
+        <div class="field-body">
+          <div class="field">
+            <div class="control is-expanded">
+              <input
+                class="input"
+                type="text"
+                placeholder="Company"
+                name="Company"
+              />
+            </div>
+          </div>
+          <div class="field">
+            <div class="control is-expanded">
+              <input
+                class="input"
+                type="text"
+                placeholder="Phone number"
+                name="Phone Number"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="field">
+        <div className="control">
+          <textarea
+            placeholder="How can we help?"
+            className="textarea"
+            name="Message"
+          />
+        </div>
+      </div>
+
+      <div className="field">
+        <button className="button is-black is-rounded" type="submit">
+          Connect with us
+        </button>
+      </div>
+    </form>
   )
 }
 

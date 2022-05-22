@@ -2,7 +2,7 @@ import * as React from "react"
 import PageLayout from "../../layouts/PageLayout"
 import Man from "../../assets/images/craftsman_laptop-frame.jpg"
 import Woman from "../../assets/images/women_at_fence_small-frame.jpg"
-const InstallerPage = () => {
+const LocalConsumersPage = () => {
   return (
     <PageLayout>
       <section className="hero is-medium is-dark">
@@ -221,4 +221,4 @@ const InstallerPage = () => {
   )
 }
 
-export default InstallerPage
+export default LocalConsumersPage

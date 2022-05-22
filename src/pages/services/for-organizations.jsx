@@ -5,7 +5,7 @@ import PageLayout from "../../layouts/PageLayout"
 import OneHand from "../../assets/icons/co-icons/one-hand.svg"
 import Community from "../../assets/icons/co-icons/community.svg"
 
-const ResidentsPage = () => {
+const OrganizationsPage = () => {
   return (
     <PageLayout>
       <section className="hero is-medium is-dark">
@@ -140,4 +140,4 @@ const ResidentsPage = () => {
   )
 }
 
-export default ResidentsPage
+export default OrganizationsPage

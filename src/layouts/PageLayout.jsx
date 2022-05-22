@@ -4,7 +4,7 @@ import { Navbar, Footer } from "../components"
 const pageLayout = ({ children }) => {
   return (
     <div>
-      <Navbar />
+      <Navbar  className="pb-6 mb-5"/>
       {children}
       <Footer />
     </div>

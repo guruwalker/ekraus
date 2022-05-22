@@ -1,22 +1,30 @@
 import * as React from "react"
+
+// import images/svgs
 import Installer from "../assets/icons/co-icons/installer.svg"
 import Citizen from "../assets/icons/co-icons/citizen.svg"
 import Initiator from "../assets/icons/co-icons/initiator.svg"
 
+//import layout
 import PageLayout from "../layouts/PageLayout"
+
+//import components
+import HomePageCarousel from "../components/HomePageCarousel"
 
 const IndexPage = () => {
   return (
     <PageLayout>
-      {/* <section className="hero is-medium is-dark pt-6 mt-6">
+      <section>
+        <HomePageCarousel />
+      </section>
+      {/* <section className="hero is-medium is-dark mt-6">
         <div className="hero-body">
           <div className="container">
             <p className="title is-1 has-text-centered has-text-success">
-              Together towards climate <br /> protection
+              Together towards sustainable <br /> food production
             </p>
             <p className="is-size-5 has-text-centered pt-2">
-              This is where local initiators, capable execution partners and
-              engaged residents come together to turn plans into actions.
+              Here at Ekraus, we believe that ...
             </p>
             <div className="level">
               <div className="level-item">
@@ -38,53 +46,53 @@ const IndexPage = () => {
           </div>
         </div>
       </section> */}
-      <section className="hero is-medium is-medium pt-6 mt-6">
+      <section className="hero is-light is-small mt-6">
         <div className="hero-body">
           <div className="container">
             <div className="columns pb-6">
-              <div className="column is-one-third">
-                <p className="title is-3 has-text-title-color">What is Ekraus</p>
+              <div className="column ">
+                <div className="card">
+                  <p className="title is-3 has-text-title-color">
+                    What is Ekraus
+                  </p>
+                  <p className="is-size-5">
+                    Climate change is already part of everyday life. Therefore,
+                    public actors have to become active together with residents
+                    and companies and engage in climate protection. At its core,
+                    the CoBenefit approach is a win-win strategy that aims at
+                    combining individual benefits and climate protection in a
+                    single activity.
+                  </p>
+                </div>
               </div>
-              <div className="column">
-                <p className="is-size-5">
-                  Climate change is already part of everyday life. Therefore,
-                  public actors have to become active together with residents
-                  and companies and engage in climate protection. At its core,
-                  the CoBenefit approach is a win-win strategy that aims at
-                  combining individual benefits and climate protection in a
-                  single activity.
-                </p>
+              <div className="column ">
+                <div className="card">
+                  <p className="title is-3 has-text-title-color">
+                    How it works?
+                  </p>
+                  <p className="is-size-5">
+                    On our platform, local initiators launch initiatives
+                    together with qualified execution partners. People from the
+                    region can participate in these initiatives and thus invest
+                    in sustainable solutions for their homes. In this way, they
+                    can protect the climate and at the same time make themselves
+                    independent of rising energy costs.
+                  </p>
+                </div>
               </div>
-            </div>
-            <div className="columns pb-6">
-              <div className="column is-one-third">
-                <p className="title is-3 has-text-title-color">How it works?</p>
-              </div>
-              <div className="column">
-                <p className="is-size-5">
-                  On our platform, local initiators launch initiatives together
-                  with qualified execution partners. People from the region can
-                  participate in these initiatives and thus invest in
-                  sustainable solutions for their homes. In this way, they can
-                  protect the climate and at the same time make themselves
-                  independent of rising energy costs.{" "}
-                </p>
-              </div>
-            </div>
-            <div className="columns pb-6">
-              <div className="column is-one-third">
-                <p className="title is-3 has-text-title-color">
-                  What is an initiative?
-                </p>
-              </div>
-              <div className="column">
-                <p className="is-size-5">
-                  An initiative brings together as many people as possible from
-                  a region. This creates a strong collective that has more
-                  market power than a single person. Together they benefit from
-                  easier access to climate tech solutions through better prices
-                  and more security in the community.
-                </p>
+              <div className="column ">
+                <div className="card">
+                  <p className="title is-3 has-text-title-color">
+                    What is an initiative?
+                  </p>
+                  <p className="is-size-5">
+                    An initiative brings together as many people as possible
+                    from a region. This creates a strong collective that has
+                    more market power than a single person. Together they
+                    benefit from easier access to climate tech solutions through
+                    better prices and more security in the community.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -111,12 +119,20 @@ const IndexPage = () => {
                 </button>
               </div>
               <div className="column is-one-third">
-                <img className="image is-256x256" src={Installer} alt="for installers" />
+                <img
+                  className="image is-256x256"
+                  src={Installer}
+                  alt="for installers"
+                />
               </div>
             </div>
             <div className="columns pb-6">
               <div className="column is-one-third">
-                <img className="image is-256x256" src={Citizen} alt="for citizens" />
+                <img
+                  className="image is-256x256"
+                  src={Citizen}
+                  alt="for citizens"
+                />
               </div>
               <div className="column">
                 <p className="pb-6">
@@ -147,12 +163,20 @@ const IndexPage = () => {
                 </button>
               </div>
               <div className="column is-one-third">
-                <img className="image is-256x256" src={Initiator} alt="for initiators" />
+                <img
+                  className="image is-256x256"
+                  src={Initiator}
+                  alt="for initiators"
+                />
               </div>
             </div>
             <div className="columns pb-6">
               <div className="column is-one-third">
-                <img className="image is-256x256" src={Citizen} alt="for citizens" />
+                <img
+                  className="image is-256x256"
+                  src={Citizen}
+                  alt="for citizens"
+                />
               </div>
               <div className="column">
                 <p className="pb-6">

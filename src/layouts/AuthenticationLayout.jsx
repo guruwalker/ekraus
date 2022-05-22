@@ -1,12 +1,12 @@
 import React from "react"
-import { AdminNavbar, AdminFooter } from "../components"
+// import { AdminNavbar, AdminFooter } from "../components"
 
 const authenticationLayout = ({ children }) => {
   return (
     <div>
-      <AdminNavbar />
+      {/* <AdminNavbar /> */}
       {children}
-      <AdminFooter />
+      {/* <AdminFooter /> */}
     </div>
   )
 }
