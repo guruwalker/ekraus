@@ -56,7 +56,7 @@ const Navbar = () => {
               </a>
             </div>
           </div>
-          <a href="/" className="navbar-item">
+          <a href="/faqs" className="navbar-item">
             FAQ
           </a>
           <div className="navbar-item has-dropdown is-hoverable">
@@ -80,7 +80,7 @@ const Navbar = () => {
         <div className="navbar-end">
           <a href="/" className="navbar-item">
             <button className="button is-rounded is-success is-outlined">
-              Login
+              Market
             </button>
           </a>
         </div>

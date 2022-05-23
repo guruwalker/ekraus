@@ -5,18 +5,18 @@ const AdminLoginForm = () => {
     <form action="" method="POST">
       {/* <input type="hidden" name="_next" value="/thank-you" /> */}
 
-      <div class="field is-horizontal">
-        <div class="field-body">
-          <div class="field">
-            <p class="control is-expanded">
-              <input class="input" type="text" placeholder="Identifier" />
+      <div className="field is-horizontal">
+        <div className="field-body">
+          <div className="field">
+            <p className="control is-expanded">
+              <input className="input" type="text" placeholder="Identifier" />
             </p>
           </div>
         </div>
       </div>
-      <div class="field">
-        <p class="control is-expanded">
-          <input class="input" type="password" placeholder="Password" />
+      <div className="field">
+        <p className="control is-expanded">
+          <input className="input" type="password" placeholder="Password" />
         </p>
       </div>
 

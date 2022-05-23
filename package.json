@@ -5,6 +5,10 @@
   "version": "0.1.0",
   "author": "Innocent Maina innocentwahome@gmail.com>",
   "dependencies": {
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.8.0",
+    "@mui/styled-engine-sc": "^5.4.2",
     "@popperjs/core": "^2.11.4",
     "axios": "^0.25.0",
     "bootstrap": "^5.1.3",

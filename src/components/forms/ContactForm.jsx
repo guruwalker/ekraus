@@ -9,17 +9,17 @@ const ContactForm = () => {
     >
       {/* <input type="hidden" name="_next" value="/thank-you" /> */}
 
-      <div class="field is-horizontal">
-        <div class="field-body">
-          <div class="field">
-            <p class="control is-expanded">
-              <input class="input" type="text" placeholder="Name" name="Name" />
+      <div className="field is-horizontal">
+        <div className="field-body">
+          <div className="field">
+            <p className="control is-expanded">
+              <input className="input" type="text" placeholder="Name" name="Name" />
             </p>
           </div>
-          <div class="field">
-            <p class="control is-expanded">
+          <div className="field">
+            <p className="control is-expanded">
               <input
-                class="input"
+                className="input"
                 type="email"
                 placeholder="Email"
                 name="Email"
@@ -29,22 +29,22 @@ const ContactForm = () => {
         </div>
       </div>
 
-      <div class="field is-horizontal">
-        <div class="field-body">
-          <div class="field">
-            <div class="control is-expanded">
+      <div className="field is-horizontal">
+        <div className="field-body">
+          <div className="field">
+            <div className="control is-expanded">
               <input
-                class="input"
+                className="input"
                 type="text"
                 placeholder="Company"
                 name="Company"
               />
             </div>
           </div>
-          <div class="field">
-            <div class="control is-expanded">
+          <div className="field">
+            <div className="control is-expanded">
               <input
-                class="input"
+                className="input"
                 type="text"
                 placeholder="Phone number"
                 name="Phone Number"

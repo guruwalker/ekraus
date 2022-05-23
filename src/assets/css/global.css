@@ -32,3 +32,7 @@
   border-color: "#000000";
 }
 
+/* change background color of card */
+.card {
+  background-color: green;
+}
