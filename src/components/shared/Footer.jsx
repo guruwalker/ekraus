@@ -23,16 +23,16 @@ const Footer = () => {
               </h3>
               <ul className="menu-list has-text-white">
                 <li>
-                  <Link to="/" className="has-text-white">For local consumers</Link>
+                  <Link to="/services/for-local-consumers" className="has-text-white">For local consumers</Link>
                 </li>
                 <li>
-                  <Link to="/" className="has-text-white">For producers</Link>
+                  <Link to="/services/for-producers" className="has-text-white">For producers</Link>
                 </li>
                 <li>
-                  <Link to="/" className="has-text-white">For NGOs</Link>
+                  <Link to="/services/for-ngos" className="has-text-white">For NGOs</Link>
                 </li>
                 <li>
-                  <Link to="/" className="has-text-white">For Organizations</Link>
+                  <Link to="/services/for-organizations" className="has-text-white">For Organizations</Link>
                 </li>
               </ul>
             </div>
@@ -45,34 +45,29 @@ const Footer = () => {
               </h3>
               <ul className="menu-list">
                 <li>
-                  <Link to="/" className="has-text-white">
+                  <Link to="/about/background" className="has-text-white">
                     Background
                   </Link>
                 </li>
                 <li>
-                  <Link to="/work/" className="has-text-white">
+                  <Link to="/about/team" className="has-text-white">
                     Team
                   </Link>
                 </li>
                 <li>
-                  <Link to="/" className="has-text-white">
+                  <Link to="/404" className="has-text-white">
                     Jobs
                   </Link>
                 </li>
 
                 <li>
-                  <Link to="/contact/" className="has-text-white">
+                  <Link to="/company/privacy-policy" className="has-text-white">
                     Privacy Policy
                   </Link>
                 </li>
                 <li>
-                  <Link to="/contact/" className="has-text-white">
+                  <Link to="/company/terms-and-conditions" className="has-text-white">
                     Terms and conditions
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/contact/" className="has-text-white">
-                    Legal notice
                   </Link>
                 </li>
               </ul>
@@ -85,12 +80,12 @@ const Footer = () => {
               </h3>
               <ul className="menu-list">
                 <li>
-                  <Link to="/about/" className="has-text-white">
+                  <Link to="/contact" className="has-text-white">
                     Contact
                   </Link>
                 </li>
                 <li>
-                  <Link to="/about/" className="has-text-white">
+                  <Link to="/faqs" className="has-text-white">
                     FAQs
                   </Link>
                 </li>
