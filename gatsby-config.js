@@ -34,6 +34,23 @@ module.exports = {
         icon: `src/assets/images/logo.png`, // This path is relative to the root of the site.
       },
     },
+    // {
+    //   resolve: 'gatsby-plugin-antd',
+    //   options: {
+    //     style: true
+    //   }
+    // },
+    // {
+    //   resolve: `gatsby-plugin-less`,
+    //   options: {
+    //     loaderOptions: {
+    //       appendData: `@env: ${process.env.NODE_ENV};`,
+    //     },
+    //     lessOptions: {
+    //       javascriptEnabled: true,
+    //     },
+    //   },
+    // },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

@@ -36,52 +36,8 @@ const Navbar = () => {
         className={`navbar-menu ${isActive ? "is-active" : ""}`}
       >
         <div className="navbar-end">
-          <div className="navbar-item has-dropdown is-hoverable">
-            <a href="#" className="navbar-link">
-              Our service
-            </a>
-
-            <div className="navbar-dropdown">
-              <a href="/services/for-producers" className="navbar-item">
-                For Producers
-              </a>
-              <a href="/services/for-organizations" className="navbar-item">
-                For Organizations
-              </a>
-              <a href="/services/for-local-consumers" className="navbar-item">
-                For Local Consumers
-              </a>
-              <a href="/services/for-ngos" className="navbar-item">
-                For NGOs
-              </a>
-            </div>
-          </div>
-          <a href="/" className="navbar-item">
-            FAQ
-          </a>
-          <div className="navbar-item has-dropdown is-hoverable">
-            <a href="#" className="navbar-link">
-              About us
-            </a>
-
-            <div className="navbar-dropdown">
-              <a href="/about/background" className="navbar-item">
-                Background
-              </a>
-              <a href="/about/team" className="navbar-item">
-                Team
-              </a>
-              <a href="/contact" className="navbar-item">
-                Contact
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="navbar-end">
-          <a href="/" className="navbar-item">
-            <button className="button is-rounded is-success is-outlined">
-              Login
-            </button>
+          <a href="/admin/home" className="navbar-item">
+            Home
           </a>
         </div>
       </div>

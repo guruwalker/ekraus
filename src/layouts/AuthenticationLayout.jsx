@@ -4,9 +4,7 @@ import React from "react"
 const authenticationLayout = ({ children }) => {
   return (
     <div>
-      {/* <AdminNavbar /> */}
       {children}
-      {/* <AdminFooter /> */}
     </div>
   )
 }

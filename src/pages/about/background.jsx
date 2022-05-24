@@ -18,6 +18,24 @@ const BackgroundPage = () => {
           </div>
         </div>
       </section>
+      <section className="hero is-small is-subFooter">
+        <div className="hero-body">
+          <div className="py-6 pt-4">
+            <p className="has-text-dark has-text-centered has-text-weight-semibold is-size-4">
+              Become a part of our journey. Would you like to know more?
+            </p>
+            <div className="container">
+              <div className="level">
+                <div className="level-item">
+                  <button className=" button is-outlined has-background-dark has-text-white has-text-centered is-size-5 is-rounded">
+                    Contact Us
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </PageLayout>
   )
 }

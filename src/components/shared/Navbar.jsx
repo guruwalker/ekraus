@@ -2,7 +2,7 @@ import React from "react"
 // import Logo from "../../assets/images/logo5.png"
 
 const Navbar = () => {
-  const [isActive, setisActive] = React.useState(false)
+  const [isActive, setIsActive] = React.useState(false)
 
   return (
     <nav
@@ -14,21 +14,20 @@ const Navbar = () => {
         <a className="navbar-item logo-font" href="/">
           Ekraus
         </a>
-        <a
+        <div
           href="#"
           onClick={() => {
-            setisActive(!isActive)
+            setIsActive(!isActive)
           }}
-          role="button"
           className={`navbar-burger burger ${isActive ? "is-active" : ""}`}
           aria-label="menu"
           aria-expanded="false"
-          data-target="navbarBasicExample"
+          data-target="navbarBasicExample"mobile navbar
         >
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
-        </a>
+        </div>
       </div>
 
       <div
@@ -37,7 +36,7 @@ const Navbar = () => {
       >
         <div className="navbar-end">
           <div className="navbar-item has-dropdown is-hoverable">
-            <a href="#" className="navbar-link">
+            <a href="/services/for-producers" className="navbar-link">
               Our service
             </a>
 
@@ -60,7 +59,7 @@ const Navbar = () => {
             FAQ
           </a>
           <div className="navbar-item has-dropdown is-hoverable">
-            <a href="#" className="navbar-link">
+            <a href="/about/background" className="navbar-link">
               About us
             </a>
 

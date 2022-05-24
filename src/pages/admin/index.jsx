@@ -22,7 +22,7 @@ const AdminIndexPage = () => {
               <div className="column">
                 <img
                   src={LoginImage}
-                  alt="login image "
+                  alt="login "
                   className="image is-256x256"
                 />
               </div>

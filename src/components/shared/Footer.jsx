@@ -19,20 +19,20 @@ const Footer = () => {
           <div className="column is-one-quarter">
             <div>
               <h3 className="menu-label has-text-white is-size-5 has-text-weight-semibold">
-                Product
+                Services
               </h3>
               <ul className="menu-list has-text-white">
                 <li>
-                  <Link to="/" className="has-text-white">For residents</Link>
+                  <Link to="/" className="has-text-white">For local consumers</Link>
                 </li>
                 <li>
-                  <Link to="/" className="has-text-white">For initiators</Link>
+                  <Link to="/" className="has-text-white">For producers</Link>
                 </li>
                 <li>
-                  <Link to="/" className="has-text-white">For installers</Link>
+                  <Link to="/" className="has-text-white">For NGOs</Link>
                 </li>
                 <li>
-                  <Link to="/" className="has-text-white">FAQ</Link>
+                  <Link to="/" className="has-text-white">For Organizations</Link>
                 </li>
               </ul>
             </div>
@@ -59,11 +59,7 @@ const Footer = () => {
                     Jobs
                   </Link>
                 </li>
-                <li>
-                  <Link to="/about/" className="has-text-white">
-                    Contact
-                  </Link>
-                </li>
+
                 <li>
                   <Link to="/contact/" className="has-text-white">
                     Privacy Policy
@@ -77,6 +73,25 @@ const Footer = () => {
                 <li>
                   <Link to="/contact/" className="has-text-white">
                     Legal notice
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="column">
+            <div>
+              <h3 className="menu-label has-text-white is-size-5 has-text-weight-semibold">
+                Resources
+              </h3>
+              <ul className="menu-list">
+                <li>
+                  <Link to="/about/" className="has-text-white">
+                    Contact
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/about/" className="has-text-white">
+                    FAQs
                   </Link>
                 </li>
               </ul>
