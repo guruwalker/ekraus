@@ -1,6 +1,6 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
 /* carousel in fashion index page */
 .carousel-item {
@@ -31,8 +31,7 @@
   height: 0.5;
   border-color: "#000000";
 }
-
-/* change background color of card */
-.card {
-  background-color: green;
-}
+/* local consumers accordion */
+/* .accordion-button:not(.collapsed) {
+  background-color: #1daa0c ;
+} */

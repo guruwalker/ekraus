@@ -38,7 +38,7 @@ const HomePageCarousel = () => {
               <div className="carousel-inner">
                 <div className="carousel-item active" data-bs-interval="10000">
                   <img
-                    src="https://images.unsplash.com/photo-1545291730-faff8ca1d4b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                    src="https://images.unsplash.com/photo-1597916829826-02e5bb4a54e0?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YWdyaWN1bHR1cmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500"
                     className="d-block w-100"
                     alt="..."
                   />
@@ -52,7 +52,7 @@ const HomePageCarousel = () => {
                 </div>
                 <div className="carousel-item" data-bs-interval="2000">
                   <img
-                    src="https://images.unsplash.com/photo-1520367745676-56196632073f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80"
+                    src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGFncmljdWx0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500"
                     className="d-block w-100"
                     alt="..."
                   />
@@ -66,7 +66,7 @@ const HomePageCarousel = () => {
                 </div>
                 <div className="carousel-item">
                   <img
-                    src="https://images.unsplash.com/photo-1621060344848-262c81b806a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=707&q=80"
+                    src="https://images.unsplash.com/photo-1461354464878-ad92f492a5a0?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGZhcm1lcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500"
                     className="d-block w-100"
                     alt="..."
                   />

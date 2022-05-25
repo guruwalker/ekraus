@@ -7,78 +7,90 @@ import "../../assets/css/global.css"
 const TeamPage = () => {
   return (
     <PageLayout>
-      <section className="hero is-dark is-medium">
+      <section className="hero is-small is-dark">
         <div className="hero-body">
-          <div className="container pt-6 mt-5">
-            <p>
-              <span className="is-size-3 has-text-centered	">
-                What do we want to achieve
-              </span>{" "}
-              <br />
-              Our vision for communities and cities with self-sustaining local
-              food production and residents who produce with ready market.
-              Through our platform and partners, we want people to realize ideas
-              and concepts for a sustainable future
-            </p>
+          <div className="container pt-6">
+            <div className="container pt-6 mt-6">
+              <p className="title is-1 has-text-weight-bold  has-text-centered">
+                We gather people instead of money
+              </p>
+              <p className="is-size-5 has-text-centered has-text-weight-lighter">
+                In contrary to ordinary crowdfunding, we exclusively provide a
+                platform for sustainable initiatives <br /> and local initiators
+                to make climate tech solutions accessible to residents.
+              </p>
+            </div>
           </div>
         </div>
       </section>
-      <section className="hero is-light is-fullheight">
+      <section className="hero is-light is-large">
         <div className="-body">
           <div className="container pt-6 mt-5">
             <p className="has-text-weight-bold has-text-centered is-size-3">
               Our Team
             </p>
+            <p class="text-muted has-text-centered">Meet and Greet our Team Members</p>
+
             <div className="container">
-              <div className="columns">
-                {/* <div className="column">
-                  <img
-                    src="https://bulma.io/images/placeholders/256x256.png"
-                    alt="Placeholder image"
-                    className="image is-256x256 is-rounded"
-                  />
-                  <div class="content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                    <a href="#">#css</a> <a href="#">#responsive</a>
-                    <br />
-                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
-                  </div>
-                </div> */}
-                <div className="card">
-                  <div className="card-image">
-                    <figure className="image is-4by3">
-                      <img
-                        src="https://bulma.io/images/placeholders/1280x960.png"
-                        alt="Placeholder "
-                      />
-                    </figure>
-                  </div>
-                  <div className="card-content">
-                    <div className="media">
-                      <div className="media-left">
-                        <figure className="image is-48x48">
-                          <img
-                            src="https://bulma.io/images/placeholders/96x96.png"
-                            alt="Placeholder "
-                          />
-                        </figure>
-                      </div>
-                      <div className="media-content">
-                        <p className="title is-4">John Smith</p>
-                        <p className="subtitle is-6">@johnsmith</p>
+              <section class="team text-center py-5">
+                <div class="container">
+                  <div class="header my-5"></div>
+                  <div class="row">
+                    <div class="col-md-6 col-lg-3">
+                      <div class="img-block mb-5">
+                        <img
+                          src="https://bulma.io/images/placeholders/256x256.png"
+                          class="img-fluid  img-thumbnail rounded-circle"
+                          alt=" something1"
+                        />
+                        <div class="content mt-2">
+                          <h4>Zain Knob</h4>
+                          <p class="text-muted">Mechanical Engineer</p>
+                        </div>
                       </div>
                     </div>
-
-                    <div className="content">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Phasellus nec iaculis mauris.
-                      <br />
-                      <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                    <div class="col-md-6 col-lg-3 ">
+                      <div class="img-block mb-5">
+                        <img
+                          src="https://bulma.io/images/placeholders/256x256.png"
+                          class="img-fluid  img-thumbnail rounded-circle"
+                          alt=" something1"
+                        />
+                        <div class="content mt-2">
+                          <h4>Syndia Lee</h4>
+                          <p class="text-muted">Software Engineer</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                      <div class="img-block mb-5">
+                        <img
+                          src="https://bulma.io/images/placeholders/256x256.png"
+                          class="img-fluid  img-thumbnail rounded-circle"
+                          alt=" something1"
+                        />
+                        <div class="content mt-2">
+                          <h4>Noel Flantier</h4>
+                          <p class="text-muted">Joomla Specialist</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                      <div class="img-block mb-5">
+                        <img
+                          src="https://bulma.io/images/placeholders/256x256.png"
+                          class="img-fluid  img-thumbnail rounded-circle"
+                          alt=" something1"
+                        />
+                        <div class="content mt-2">
+                          <h4>Bobby Doe</h4>
+                          <p class="text-muted">Street Artist</p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              </section>
             </div>
           </div>
         </div>

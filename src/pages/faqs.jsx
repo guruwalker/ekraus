@@ -15,6 +15,11 @@ import NgosFaq from "../components/faq-accordions/NgosFaq"
 import OrganizationsFaq from "../components/faq-accordions/OrganizationsFaq"
 import ProducersFaq from "../components/faq-accordions/ProducersFaq"
 
+//import mui icons
+import PhoneIcon from "@mui/icons-material/Phone"
+import FavoriteIcon from "@mui/icons-material/Favorite"
+import PersonPinIcon from "@mui/icons-material/PersonPin"
+
 function TabPanel(props) {
   const { children, value, index, ...other } = props
 
@@ -61,28 +66,19 @@ const FaqsPage = () => {
         <div className="hero-body">
           <div className="container pt-6">
             <div className="container pt-6 mt-6">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-                quaerat iusto sapiente, quas necessitatibus hic eos provident
-                recusandae eius eaque eveniet dolore illum veniam repellendus
-                sit maxime! Quisquam, earum tenetur odio laboriosam commodi
-                provident eos fuga repellat eligendi beatae nisi qui, sed
-                explicabo dolore possimus aut exercitationem minus expedita
-                perferendis quos hic tempore. Tenetur quos illo eos accusamus
-                minidam ullam quaerat et, iste minus
-                dolores aut ea distinctio, laboriosam consequuntur enim
-                voluptatem non. Aspernatur nostrum porro velit laudantium
-                tempora accusamus dicta atque, a fugiat? Eveniet, temporibus non
-                molestias excepturi omnis nemo consequuntur voluptas enim autem.
-                Fugit in corrupti vitae. Enim, quam placeat, culpa possimus ea
-                reprehenderit fugiat reiciendis repellendus distinctio aliquid
-                vitae? Sequi ex sit et esse? Eligendi voluptates praesentium mag
+              <p className="title is-1 has-text-weight-bold  has-text-centered">
+                Hello, how can we help?
+              </p>
+              <p className="is-size-5 has-text-centered has-text-weight-lighter">
+                Click on one of the categories below to find the answer to your
+                question! <br />
+                Your question is not listed? Then contact our expert support.
               </p>
             </div>
           </div>
         </div>
       </section>
-      <section className="hero is-fullheight">
+      <section className="hero is-large pb-6">
         <div className="-body">
           <div className=" pt-6 mt-6">
             <Box sx={{ width: "100%" }}>
@@ -90,13 +86,34 @@ const FaqsPage = () => {
                 <Tabs
                   value={value}
                   onChange={handleChange}
-                  variant="fullWidth"
+                  // variant="fullWidth"
+                  centered
                   aria-label="full width tabs example"
                 >
-                  <Tab label="For Local Consumers" {...a11yProps(0)} />
-                  <Tab label="For NGOs" {...a11yProps(1)} />
-                  <Tab label="For Organizations" {...a11yProps(2)} />
-                  <Tab label="For Producers" {...a11yProps(3)} />
+                  <Tab
+                    iconPosition="bottom"
+                    icon={<PhoneIcon />}
+                    label="For Local Consumers"
+                    {...a11yProps(0)}
+                  />
+                  <Tab
+                    iconPosition="bottom"
+                    icon={<FavoriteIcon />}
+                    label="For NGOs"
+                    {...a11yProps(1)}
+                  />
+                  <Tab
+                    iconPosition="bottom"
+                    icon={<PersonPinIcon />}
+                    label="For Organizations"
+                    {...a11yProps(2)}
+                  />
+                  <Tab
+                    iconPosition="bottom"
+                    icon={<PhoneIcon />}
+                    label="For Producers"
+                    {...a11yProps(3)}
+                  />
                 </Tabs>
               </Box>
               <TabPanel value={value} index={0}>

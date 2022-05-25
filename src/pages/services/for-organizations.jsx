@@ -8,47 +8,32 @@ import Community from "../../assets/icons/co-icons/community.svg"
 const OrganizationsPage = () => {
   return (
     <PageLayout>
-      <section className="hero is-medium is-dark">
+      <section className="hero is-small is-dark">
         <div className="hero-body">
-          <div className="">
-            <div className="pt-6 mt-6">
-              <p className="has-text-centered">
-                <span className="title is-1 has-text-primary pb-3">
-                  Benefit from a climate-neutral home <br />
-                  <br />
-                </span>
-                On CoBenefit, you can participate in local initiatives and
-                invest in climate tech solutions for your own home.
+          <div className="container pt-6">
+            <div className="container pt-6 mt-6">
+              <p className="title is-1 has-text-weight-bold has-text-warning has-text-centered">
+                Get rid of unnecessary expenses by buying locally
+              </p>
+              <p className="is-size-5 has-text-centered has-text-weight-lighter">
+                In contrary to ordinary crowdfunding, we exclusively provide a
+                platform for sustainable initiatives <br /> and local initiators
+                to make climate tech solutions accessible to residents.
               </p>
             </div>
           </div>
         </div>
       </section>
-      <section className="hero is-small is-medium">
-        <div className="hero-body">
-          <div className="">
-            <div className="pt-6 mt-6">
-              <p className="has-text-centered">
-                <span className="has-text-success has-text-weight-semibold title is-2">
-                  Why Ekraus <br />
-                  <br />
-                </span>
-                Would you also like to make your flat or house more
-                climate-friendly and thus make yourself independent of
-                ever-increasing energy costs? At the same time, however, you are
-                confronted with the complexity of the different solutions, the
-                choice of a trustworthy supplier or the lack of available
-                installation companies.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+
       <section className="hero is-large is-light">
         <div className="hero-body">
           <div className="columns">
             <div className="column is-one-third">
-              <img src={Community} alt="community" className="image is-256x256" />{" "}
+              <img
+                src={Community}
+                alt="community"
+                className="image is-256x256"
+              />{" "}
             </div>
             <div className="column">
               <p>
@@ -140,13 +125,13 @@ const OrganizationsPage = () => {
         <div className="hero-body">
           <div className="py-6 pt-4">
             <p className="has-text-dark has-text-centered has-text-weight-semibold is-size-4">
-              Would you like to sell your products locally?
+              Would you like to buy locally grown products?
             </p>
             <div className="container">
               <div className="level">
                 <div className="level-item">
                   <button className=" button is-outlined has-background-dark has-text-white has-text-centered is-size-5 is-rounded">
-                    Contact Us
+                    Go to MarketPlace
                   </button>
                 </div>
               </div>

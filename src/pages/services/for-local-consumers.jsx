@@ -5,43 +5,22 @@ import Woman from "../../assets/images/women_at_fence_small-frame.jpg"
 const LocalConsumersPage = () => {
   return (
     <PageLayout>
-      <section className="hero is-medium is-dark">
+      <section className="hero is-small is-dark">
         <div className="hero-body">
-          <div className="">
-            <div className="pt-6 mt-6">
-              <p className="has-text-centered">
-                <span className="title is-1 has-text-danger pb-3">
-                  Grow through partnerships with local initiators <br />
-                  <br />
-                </span>
-                Our initiators are looking for long-term partners to make
-                climate tech solutions accessible to residents.
+          <div className="container pt-6">
+            <div className="container pt-6 mt-6">
+              <p className="title is-1 has-text-weight-bold has-text-success  has-text-centered">
+                Benefit from locally produced goods
+              </p>
+              <p className="is-size-5 has-text-centered has-text-weight-lighter">
+                With Ekraus, you can participate in local initiatives and
+                <br /> invest in climate tech solutions for your own home..
               </p>
             </div>
           </div>
         </div>
       </section>
-      <section className="hero is-small is-small">
-        <div className="hero-body">
-          <div className="">
-            <div className="pt-6 mt-6">
-              <p className="has-text-centered">
-                <span className="has-text-success has-text-weight-semibold title is-2">
-                  Why Ekraus <br />
-                  <br />
-                </span>
-                Installation companies are currently much sought-after and have
-                full order books. However, sales take up a lot of time because
-                the basics of solutions have to be explained again and again. A
-                lot of time is lost in driving to and advising individual
-                customers. At CoBenefit, we bundle and inform prospective
-                customers in advance so that you can concentrate on your core
-                business.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+
       <section className="hero is-small is-light">
         <div className="hero-body">
           <div className="container">
@@ -203,13 +182,13 @@ const LocalConsumersPage = () => {
         <div className="hero-body">
           <div className="py-6 pt-4">
             <p className="has-text-dark has-text-centered has-text-weight-semibold is-size-4">
-              Would you like to sell your products locally?
+              Would you like to buy locally produced goods?
             </p>
             <div className="container">
               <div className="level">
                 <div className="level-item">
                   <button className=" button is-outlined has-background-dark has-text-white has-text-centered is-size-5 is-rounded">
-                    Contact Us
+                    Go to MarketPlace
                   </button>
                 </div>
               </div>

@@ -5,19 +5,24 @@ import PageLayout from "../../layouts/PageLayout"
 const BackgroundPage = () => {
   return (
     <PageLayout>
-      <section className="hero is-medium is-light">
+      <section className="hero is-small is-dark">
         <div className="hero-body">
-          <div className="container pt-6 mt-5">
-            <p>
-              <span className="is-size-3 has-text-centered	">What do we want to achieve</span> <br />
-              Our vision for communities and cities with self-sustaining local
-              food production and residents who produce with ready market.
-              Through our platform and partners, we want people to realize ideas
-              and concepts for a sustainable future
-            </p>
+          <div className="container pt-6">
+            <div className="container pt-6 mt-6">
+              <p className="title is-1 has-text-weight-bold  has-text-centered">
+                We want to fix world hunger
+              </p>
+              <p className="is-size-5 has-text-centered has-text-weight-lighter">
+                We facilitate cooperation between our local initiators,
+                residents and businesses.
+                <br /> Our goal is to build an ecosystem that supports the
+                acceptance of climate protection measures.
+              </p>
+            </div>
           </div>
         </div>
       </section>
+      <p>Background information</p>
       <section className="hero is-small is-subFooter">
         <div className="hero-body">
           <div className="py-6 pt-4">

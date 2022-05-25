@@ -17,41 +17,12 @@ const IndexPage = () => {
       <section>
         <HomePageCarousel />
       </section>
-      {/* <section className="hero is-medium is-dark mt-6">
-        <div className="hero-body">
-          <div className="container">
-            <p className="title is-1 has-text-centered has-text-success">
-              Together towards sustainable <br /> food production
-            </p>
-            <p className="is-size-5 has-text-centered pt-2">
-              Here at Ekraus, we believe that ...
-            </p>
-            <div className="level">
-              <div className="level-item">
-                <button className="button is-rounded is-contained is-primary has-text-weight-semibold">
-                  For residents
-                </button>
-              </div>
-              <div className="level-item">
-                <button className="button is-rounded is-contained is-warning has-text-weight-semibold has-text-white">
-                  For residents
-                </button>
-              </div>
-              <div className="level-item">
-                <button className="button is-rounded is-contained is-danger has-text-weight-semibold">
-                  For residents
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-      <section className="hero is-light is-small mt-6">
+      {/* <section className="hero is-light is-small mt-6">
         <div className="hero-body">
           <div className="container">
             <div className="columns pb-6">
               <div className="column ">
-                <div className="card">
+                <div className="card-content">
                   <p className="title is-3 has-text-title-color">
                     What is Ekraus
                   </p>
@@ -66,7 +37,7 @@ const IndexPage = () => {
                 </div>
               </div>
               <div className="column ">
-                <div className="card">
+                <div className="card-content">
                   <p className="title is-3 has-text-title-color">
                     How it works?
                   </p>
@@ -81,7 +52,7 @@ const IndexPage = () => {
                 </div>
               </div>
               <div className="column ">
-                <div className="card">
+                <div className="card-content">
                   <p className="title is-3 has-text-title-color">
                     What is an initiative?
                   </p>
@@ -97,7 +68,7 @@ const IndexPage = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <p className="title is-3 has-text-success has-text-centered">
         Our goal at Ekraus
       </p>
