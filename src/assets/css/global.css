@@ -4,7 +4,7 @@
 
 /* carousel in fashion index page */
 .carousel-item {
-  height: 80vh;
+  height: 100vh;
   min-height: 350px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -12,6 +12,14 @@
   -o-background-size: cover;
   background-size: cover;
 }
+
+.carousel-inner>.carousel-item>img, .carousel-inner>.carousel-item>a>img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  line-height: 1;
+  width: 100%; 
+  }
 
 /* vertical line in the footer */
 .vr {

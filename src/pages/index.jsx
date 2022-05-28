@@ -1,9 +1,10 @@
 import * as React from "react"
 
 // import images/svgs
-import Installer from "../assets/icons/co-icons/installer.svg"
-import Citizen from "../assets/icons/co-icons/citizen.svg"
-import Initiator from "../assets/icons/co-icons/initiator.svg"
+import Producers from "../assets/icons/main/producer.svg"
+import ngos from "../assets/icons/main/ngo.svg"
+import Organizations from "../assets/icons/main/organization.svg"
+import Consumers from "../assets/icons/main/producer.svg"
 
 //import layout
 import PageLayout from "../layouts/PageLayout"
@@ -17,65 +18,15 @@ const IndexPage = () => {
       <section>
         <HomePageCarousel />
       </section>
-      {/* <section className="hero is-light is-small mt-6">
+      <div>
+        <p className="title is-3 pt-6 has-text-success has-text-centered">
+          Together towards sustainable food production and stable market
+        </p>
+      </div>
+      <section className="hero is-medium is-medium">
         <div className="hero-body">
           <div className="container">
-            <div className="columns pb-6">
-              <div className="column ">
-                <div className="card-content">
-                  <p className="title is-3 has-text-title-color">
-                    What is Ekraus
-                  </p>
-                  <p className="is-size-5">
-                    Climate change is already part of everyday life. Therefore,
-                    public actors have to become active together with residents
-                    and companies and engage in climate protection. At its core,
-                    the CoBenefit approach is a win-win strategy that aims at
-                    combining individual benefits and climate protection in a
-                    single activity.
-                  </p>
-                </div>
-              </div>
-              <div className="column ">
-                <div className="card-content">
-                  <p className="title is-3 has-text-title-color">
-                    How it works?
-                  </p>
-                  <p className="is-size-5">
-                    On our platform, local initiators launch initiatives
-                    together with qualified execution partners. People from the
-                    region can participate in these initiatives and thus invest
-                    in sustainable solutions for their homes. In this way, they
-                    can protect the climate and at the same time make themselves
-                    independent of rising energy costs.
-                  </p>
-                </div>
-              </div>
-              <div className="column ">
-                <div className="card-content">
-                  <p className="title is-3 has-text-title-color">
-                    What is an initiative?
-                  </p>
-                  <p className="is-size-5">
-                    An initiative brings together as many people as possible
-                    from a region. This creates a strong collective that has
-                    more market power than a single person. Together they
-                    benefit from easier access to climate tech solutions through
-                    better prices and more security in the community.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-      <p className="title is-3 has-text-success has-text-centered">
-        Our goal at Ekraus
-      </p>
-      <section className="hero is-medium is-medium pt-6 mt-6">
-        <div className="hero-body">
-          <div className="container">
-            <div className="columns pb-6">
+            <div className="columns">
               <div className="column">
                 <p className="pb-6">
                   <span className="is-size-5 has-text-weight-semibold">
@@ -83,7 +34,13 @@ const IndexPage = () => {
                     <br />
                   </span>
                   Through CoBenefit, people can easily benefit from climate tech
-                  solutions for their homes.
+                  solutions for their homes. Lorem ipsum dolor, sit amet
+                  consectetur adipisicing elit. Similique vel rem minima dolore
+                  nemo esse perspiciatis? Porro esse dolorum adipisci omnis
+                  quaerat odit enim labore asperiores alias unde? Neque
+                  repellendus, commodi voluptatem odit maiores sunt in eveniet
+                  quia odio ad porro illo. Necessitatibus dignissimos id ex quis
+                  odio quaerat est!
                 </p>
                 <button className="button is-rounded is-contained is-primary">
                   Find initiative
@@ -92,7 +49,7 @@ const IndexPage = () => {
               <div className="column is-one-third">
                 <img
                   className="image is-256x256"
-                  src={Installer}
+                  src={Producers}
                   alt="for installers"
                 />
               </div>
@@ -101,7 +58,7 @@ const IndexPage = () => {
               <div className="column is-one-third">
                 <img
                   className="image is-256x256"
-                  src={Citizen}
+                  src={Organizations}
                   alt="for citizens"
                 />
               </div>
@@ -112,7 +69,13 @@ const IndexPage = () => {
                     <br />
                   </span>
                   We offer local initiators a digital toolbox to successfully
-                  realise initiatives with residents.
+                  realise initiatives with residents. Lorem ipsum dolor, sit
+                  amet consectetur adipisicing elit. Magnam, corrupti magni
+                  maxime ullam exercitationem aspernatur eius ad aliquid quasi
+                  incidunt pariatur nesciunt quia labore minus earum minima enim
+                  officiis voluptates voluptatum ex recusandae? Accusantium
+                  obcaecati autem possimus enim! Consequatur ut nemo iusto,
+                  mollitia ex sunt harum sit unde odio neque?
                 </p>
                 <button className="button is-rounded is-contained is-warning has-text-white">
                   Launch initiative
@@ -127,7 +90,14 @@ const IndexPage = () => {
                     <br />
                   </span>
                   The execution partners of our initiatives grow in the long
-                  term through partnerships with local initiators.
+                  term through partnerships with local initiators. Lorem ipsum
+                  dolor sit, amet consectetur adipisicing elit. Eveniet quas
+                  eaque, vero maxime id adipisci nostrum nesciunt neque
+                  accusantium? Nam amet rerum voluptatum ab. Laudantium
+                  reprehenderit vel dicta sequi id suscipit eum quidem magnam
+                  soluta nihil voluptates cumque, facere architecto aliquam quia
+                  quasi recusandae harum et consequuntur eligendi similique
+                  mollitia?
                 </p>
                 <button className="button is-rounded is-contained is-danger">
                   Offer services
@@ -136,7 +106,7 @@ const IndexPage = () => {
               <div className="column is-one-third">
                 <img
                   className="image is-256x256"
-                  src={Initiator}
+                  src={ngos}
                   alt="for initiators"
                 />
               </div>
@@ -145,7 +115,7 @@ const IndexPage = () => {
               <div className="column is-one-third">
                 <img
                   className="image is-256x256"
-                  src={Citizen}
+                  src={Consumers}
                   alt="for citizens"
                 />
               </div>
@@ -156,11 +126,35 @@ const IndexPage = () => {
                     <br />
                   </span>
                   We offer local initiators a digital toolbox to successfully
-                  realise initiatives with residents.
+                  realise initiatives with residents. Lorem ipsum dolor, sit
+                  amet consectetur adipisicing elit. Dolorum eos distinctio
+                  vitae labore animi, cumque tenetur. Inventore, ab? Sequi minus
+                  odit libero id veniam, quia quibusdam est dicta maxime sunt
+                  aliquam inventore repellat! Atque tempore dolorem quisquam
+                  cumque officia perferendis qui quas mollitia, dignissimos,
+                  eligendi eveniet quia voluptas, iste fugit.
                 </p>
                 <button className="button is-rounded is-contained is-success has-text-white">
                   Launch initiative
                 </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="hero is-small is-subFooter">
+        <div className="hero-body">
+          <div className="py-6 pt-4">
+            <p className="has-text-dark has-text-centered has-text-weight-semibold is-size-4">
+              We want to be part of the solution
+            </p>
+            <div className="container">
+              <div className="level">
+                <div className="level-item">
+                  <button className=" button is-outlined has-background-dark has-text-white has-text-centered is-size-5 is-rounded">
+                    Join Us
+                  </button>
+                </div>
               </div>
             </div>
           </div>

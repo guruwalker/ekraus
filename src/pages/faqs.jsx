@@ -20,6 +20,8 @@ import PhoneIcon from "@mui/icons-material/Phone"
 import FavoriteIcon from "@mui/icons-material/Favorite"
 import PersonPinIcon from "@mui/icons-material/PersonPin"
 
+// import testImage from '../assets/icons/main/producer.svg'
+
 function TabPanel(props) {
   const { children, value, index, ...other } = props
 
@@ -92,13 +94,13 @@ const FaqsPage = () => {
                 >
                   <Tab
                     iconPosition="bottom"
-                    icon={<PhoneIcon />}
+                    icon={<PersonPinIcon />}
                     label="For Local Consumers"
                     {...a11yProps(0)}
                   />
                   <Tab
                     iconPosition="bottom"
-                    icon={<FavoriteIcon />}
+                    icon={<PersonPinIcon />}
                     label="For NGOs"
                     {...a11yProps(1)}
                   />
@@ -110,7 +112,7 @@ const FaqsPage = () => {
                   />
                   <Tab
                     iconPosition="bottom"
-                    icon={<PhoneIcon />}
+                    icon={<PersonPinIcon />}
                     label="For Producers"
                     {...a11yProps(3)}
                   />
